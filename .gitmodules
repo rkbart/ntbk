@@ -1,0 +1,6 @@
+[submodule "ntbk-api"]
+	path = ntbk-api
+	url = git@github.com:rkbart/ntbk-api.git
+[submodule "ntbk-client"]
+	path = ntbk-client
+	url = git@github.com:rkbart/ntbk-client.git
