@@ -1,11 +1,24 @@
 # ntbk
 
-A monorepo containing the ntbk platform.
+A self-hosted note-taking platform for developers.
+
+> Markdown-native editing | Fast search | Full data ownership | AI-powered features
 
 ## Structure
 
-- `ntbk-api/` - Rails API backend
-- `ntbk-client/` - Next.js frontend client
+- `ntbk-api/` - Ruby on Rails API backend
+- `ntbk-client/` - React/Vite/TypeScript frontend client
+
+## Features
+
+- **Authentication**: Email/password and Google OAuth login
+- **Workspaces**: Create and manage multiple workspaces
+- **Documents**: Create, edit, upload files (PDF, DOCX, MD, etc.)
+- **Tags**: Organize and filter documents by tags
+- **Search**: Full-text search across all documents
+- **AI Chat**: RAG-powered chat with semantic search
+- **AI Summaries**: Generate document summaries
+- **User Settings**: Profile management, password change, theme selector
 
 ## Development
 
@@ -40,3 +53,10 @@ Or after cloning:
 git submodule init
 git submodule update
 ```
+
+## Documentation
+
+- **Frontend Wiki**: `/home/rkbart/Documents/Obsidian Vault/NTBK/frontend/`
+- **Backend Wiki**: `/home/rkbart/Documents/Obsidian Vault/NTBK/backend/`
+- **Frontend Development Guide**: `ntbk-client/DEVELOPMENT.md`
+- **Backend Development Guide**: `ntbk-api/DEVELOPMENT.md`
