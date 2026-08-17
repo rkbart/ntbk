@@ -19,6 +19,9 @@ A self-hosted note-taking platform for developers.
 - **AI Chat**: RAG-powered chat with semantic search
 - **AI Summaries**: Generate document summaries
 - **User Settings**: Profile management, password change, theme selector
+- **Notifications**: Custom in-app notification system
+- **Skeleton Loading**: Smooth loading placeholders
+- **Mobile Navigation**: Responsive tab-based layout
 
 ## Development
 
